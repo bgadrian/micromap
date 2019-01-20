@@ -1,0 +1,86 @@
+[
+    {
+        "name": "roadmap",
+        "size": 10,
+        "dependencies": [
+            "kafka",
+            "service-alfa"
+        ]
+    },
+    {
+        "name": "service-alfa",
+        "size": 10,
+        "dependencies": [
+            "kafka",
+            "cassandra"
+        ]
+    },
+    {
+        "name": "service-alfa2",
+        "size": 10,
+        "dependencies": [
+            "kafka",
+            "redis"
+        ]
+    },
+    {
+        "name": "service-alfa3",
+        "size": 10,
+        "dependencies": [
+            "kafka",
+            "redis"
+        ]
+    },
+    {
+        "name": "service-alfa4",
+        "size": 10,
+        "dependencies": [
+            "kafka",
+            "redis"
+        ]
+    },
+    {
+        "name": "beta",
+        "size": 10,
+        "dependencies": [
+            "cassandra"
+        ]
+    },
+    {
+        "name": "beta2",
+        "size": 10,
+        "dependencies": [
+            "cassandra"
+        ]
+    },
+    {
+        "name": "beta3",
+        "size": 10,
+        "dependencies": [
+            "cassandra"
+        ]
+    },
+    {
+        "name": "beta4",
+        "size": 10,
+        "dependencies": [
+            "cassandra"
+        ]
+    },
+    {
+        "name": "theta",
+        "size": 10,
+        "dependencies": [
+            "kafka"
+        ]
+    },
+    {
+        "name": "API",
+        "size": 20,
+        "dependencies": [
+            "roadmap",
+            "service-alfa",
+            "beta"
+        ]
+    }
+]
